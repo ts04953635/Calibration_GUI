@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calibration_GUI", "Calibration_GUI\Calibration_GUI.vcxproj", "{F94FB6BA-FED4-4DE1-818C-427149987BB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F94FB6BA-FED4-4DE1-818C-427149987BB9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F94FB6BA-FED4-4DE1-818C-427149987BB9}.Debug|Win32.Build.0 = Debug|Win32
+		{F94FB6BA-FED4-4DE1-818C-427149987BB9}.Release|Win32.ActiveCfg = Release|Win32
+		{F94FB6BA-FED4-4DE1-818C-427149987BB9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

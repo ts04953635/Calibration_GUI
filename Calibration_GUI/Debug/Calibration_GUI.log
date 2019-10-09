@@ -1,0 +1,24 @@
+﻿已經開始建置於 2017/3/27 上午 11:32:25。
+     1>節點 2 (build 目標) 上的專案 "D:\AFU\PDA_test\Calibration_GUI\Calibration_GUI\Calibration_GUI.vcxproj"。
+     1>InitializeBuildStatus:
+         正在變更時間戳記 "Debug\Calibration_GUI.unsuccessfulbuild"。
+       GenerateTargetFrameworkMonikerAttribute:
+       將略過目標 "GenerateTargetFrameworkMonikerAttribute"，因為所有輸出檔對於其輸入檔而言都已更新。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Calibration_GUI.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\atlconv.h(98): error C3641: 'InterlockedExchangePointer' : 對以 /clr:pure 或 /clr:safe 編譯的函式無效的呼叫慣例 '__stdcall '
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\atlconv.h(114): error C3641: 'ATL::_AtlGetConversionACP' : 對以 /clr:pure 或 /clr:safe 編譯的函式無效的呼叫慣例 '__stdcall '
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\atlconv.h(550): error C3641: 'AtlA2WHelper' : 對以 /clr:pure 或 /clr:safe 編譯的函式無效的呼叫慣例 '__stdcall '
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\atlconv.h(569): error C3641: 'AtlW2AHelper' : 對以 /clr:pure 或 /clr:safe 編譯的函式無效的呼叫慣例 '__stdcall '
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\atlconv.h(587): error C3641: 'AtlA2WHelper' : 對以 /clr:pure 或 /clr:safe 編譯的函式無效的呼叫慣例 '__stdcall '
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\atlconv.h(592): error C3641: 'AtlW2AHelper' : 對以 /clr:pure 或 /clr:safe 編譯的函式無效的呼叫慣例 '__stdcall '
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\atlconv.h(545): error C3641: 'AtlDevModeW2A' : 對以 /clr:pure 或 /clr:safe 編譯的函式無效的呼叫慣例 '__stdcall '
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\atltrace.h(64): error C2440: 'default argument' : 無法由 'int (__cdecl *)(int,const char *,int,const char *,const char *,...)' 轉換為 'ATL::CTrace::fnCrtDbgReport_t'
+                 函式的位址在 /clr:pure 和 /clr:safe 中產生 __clrcall 呼叫慣例，請考慮在目標型別中使用 __clrcall
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\atltrace.h(143): fatal error C1903: 無法從先前的錯誤復原; 正在停止編譯
+     1>專案 "D:\AFU\PDA_test\Calibration_GUI\Calibration_GUI\Calibration_GUI.vcxproj" (build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:00.54
